@@ -1,1 +1,36 @@
-hello github
+hello github.
+
+This is a cheatsheet created for my self.
+
+---for every new machine---
+
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com" 
+
+git config --global init.defaultBranch main
+
+git config --get user.name
+git config --get user.email
+
+cd ~/.ssh
+ssh-keygen
+More : 
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+cat ~/.ssh/id_rsa.pub -----> copy + paste on github 
+
+---for every new repository---
+
+1. create new repo on github
+2. copy ssh key 
+3. git clone + paste ssh key
+4. make changes 
+git status to see what changes have been made
+5. git add .
+git status
+6. git commit -m "message for github"
+git status
+6. git push
+git log for commit history
