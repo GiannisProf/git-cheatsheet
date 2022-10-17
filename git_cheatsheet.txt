@@ -1,0 +1,50 @@
+hello github.
+
+--------CHEATSHEET FOR GITHUB---------------
+
+---for every new machine---
+
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com" 
+
+git config --global init.defaultBranch main
+
+git config --get user.name
+git config --get user.email
+
+cd ~/.ssh
+ssh-keygen
+More : 
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+cat ~/.ssh/id_rsa.pub -----> copy + paste on github 
+
+---for every new repository---
+
+1. create new repo on github
+2. copy ssh key 
+3. git clone + paste ssh key
+4. make changes 
+git status to see what changes have been made
+5. git add .
+git status
+6. git commit -m "message for github"
+git status
+7. git push
+git log for commit history
+
+
+--------------GIT BRANCHES---------------
+
+1. git branch <branch_name> ------- ftiaxnw neo branch
+2. git checkout <branch_name> ----- change to the branch pou eftiaksa
+3. git checkout -b <branch_name> ------- entoles 1 kai 2 se ena vhma
+4. git branch ------ vlepw ola ta branches mou
+5. git checkout main ------ ksanampainw sto main branch
+6. git merge <branch_name> ----- prosthetei tis allages pou exw kanei sto
+-------------------------------- branch_name sto branch pou vriskomai ekeinh
+-------------------------------- thn stigmh
+7. git branch -d <branch_name> -------- diagrafh branch an to xw kanei merge
+7. git branch -D <branch_name> ----- diagrafh branch an den to xw kanei merge
