@@ -43,8 +43,10 @@ git log for commit history
 3. git checkout -b <branch_name> ------- entoles 1 kai 2 se ena vhma
 4. git branch ------ vlepw ola ta branches mou
 5. git checkout main ------ ksanampainw sto main branch
-6. git merge <branch_name> ----- prosthetei tis allages pou exw kanei sto
+6. git push origin <branch_name> ---- gia na to prosthesw kai sto github
+7. git push origin <branch_name> ----- gia na pusharw tis allages sto neo branch
+8. git merge <branch_name> ----- prosthetei tis allages pou exw kanei sto
 -------------------------------- branch_name sto branch pou vriskomai ekeinh
 -------------------------------- thn stigmh
-7. git branch -d <branch_name> -------- diagrafh branch an to xw kanei merge
-7. git branch -D <branch_name> ----- diagrafh branch an den to xw kanei merge
+9. git branch -d <branch_name> -------- diagrafh branch an to xw kanei merge
+9. git branch -D <branch_name> ----- diagrafh branch an den to xw kanei merge
