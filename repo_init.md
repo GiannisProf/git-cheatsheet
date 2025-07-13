@@ -4,6 +4,10 @@
 ```bash
 git init
 ```
+### Create a Github repo
+```
+Just create a Github repo from the browser
+```
 
 ### Set GitHub remote using SSH
 ```bash
