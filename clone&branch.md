@@ -33,4 +33,55 @@ git branch -d feature/my-feature
 git push -u origin feature/my-feature
 ```
 
+##  Merging & Rebasing
+
+### Merge branch into current branch
+```bash
+git merge feature/my-feature
+```
+
+### Rebase current branch onto main
+```bash
+git rebase main
+```
+
+---
+
+##  Syncing with Remote
+
+### Pull latest changes
+```bash
+git pull origin main
+```
+
+### Fetch all branches (but don’t merge)
+```bash
+git fetch
+```
+
+### See differences between local & remote
+```bash
+git status
+git diff
+```
+
+---
+
+##  Staging & Committing
+
+### Stage all changes
+```bash
+git add .
+```
+
+### Stage specific file
+```bash
+git add path/to/file.txt
+```
+
+### Commit staged changes
+```bash
+git commit -m "Your commit message"
+```
+
 ---
