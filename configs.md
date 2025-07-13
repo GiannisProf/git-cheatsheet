@@ -59,9 +59,4 @@ Expected output:
 Hi <username>! You've successfully authenticated.
 ```
 
-### Set GitHub remote using SSH
-```bash
-git remote add origin git@github.com:<username>/<repo>.git
-```
-
 ---
